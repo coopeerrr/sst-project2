@@ -63,7 +63,7 @@ export default function History() {
   const [selectedEra, setSelectedEra] = useState("pre-apartheid")
 
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className="container mx-auto px-6 py-16 rounded-lg">
       <h1 className="text-5xl font-bold mb-8 text-center text-yellow-500">History of South Africa</h1>
 
       <Card className="bg-yellow-900 bg-opacity-50 shadow-lg mb-12">

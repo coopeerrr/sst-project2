@@ -25,7 +25,7 @@ export default function RootLayout({
       >
         <div className="flex-grow">
           <Header />
-          <main className="pt-16">{children}</main>
+          <main className="pt-16 rounded-lg overflow-hidden">{children}</main>
         </div>
         <Footer />
         <Script id="code-protection" strategy="afterInteractive">

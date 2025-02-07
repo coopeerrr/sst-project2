@@ -4,7 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function Culture() {
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className="container mx-auto px-6 py-16 rounded-lg">
       <h1 className="text-5xl font-bold mb-8 text-center text-purple-400">South African Culture</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>

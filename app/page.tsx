@@ -21,7 +21,7 @@ export default function Home() {
           zIndex: -1,
         }}
       ></div>
-      <div className="relative bg-black bg-opacity-60 min-h-screen flex flex-col justify-center">
+      <div className="relative bg-black bg-opacity-60 min-h-screen flex flex-col justify-center rounded-lg">
         <div className="container mx-auto px-6 py-16 relative">
           <div className="bg-yellow-400 text-gray-900 p-4 rounded-lg mb-8 text-center max-w-2xl mx-auto transform hover:scale-105 transition-transform duration-300">
             <p className="text-lg font-bold">Project: South Africa Website</p>

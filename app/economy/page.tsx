@@ -1,6 +1,4 @@
 "use client"
-
-import { Bar } from "react-chartjs-2"
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -9,9 +7,8 @@ import { DollarSign, ShoppingCart, Tractor, Factory, Gem } from "lucide-react"
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 export default function Economy() {
-
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className="container mx-auto px-6 py-16 rounded-lg">
       <h1 className="text-5xl font-bold mb-8 text-center text-amber-400">South African Economy</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
