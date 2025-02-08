@@ -21,13 +21,6 @@ export default function Home() {
           zIndex: -1,
         }}
       ></div>
-
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h1 className="text-6xl font-bold mb-6 text-white">
-              Discover{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500">
-                South Africa
-              </span>
             </h1>
             <p className="text-2xl mb-8 text-gray-300">
               Explore the Rainbow Nation's rich diversity, from its stunning landscapes and vibrant culture to its
