@@ -20,7 +20,7 @@ export default function Home() {
             "url('https://www.thetimes.com/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F4b50e023-2a4b-4f99-8cb4-6d383858a385.jpg?crop=1564%2C880%2C318%2C0&resize=1500')",
           zIndex: -1,
         }}
-      ></div>
+      </div>
             </h1>
             <p className="text-2xl mb-8 text-gray-300">
               Explore the Rainbow Nation's rich diversity, from its stunning landscapes and vibrant culture to its
